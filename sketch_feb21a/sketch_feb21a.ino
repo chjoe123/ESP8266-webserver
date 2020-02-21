@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid      = "TP-LINK_903E";
-const char* password  = "DmgZg2312";
+const char* ssid      = "{your ssid}";
+const char* password  = "{your password}";
 
 ESP8266WebServer server(80);
 
