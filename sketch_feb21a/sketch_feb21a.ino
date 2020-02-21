@@ -10,7 +10,9 @@ char temp[400];
 void handleRoot() {
   snprintf(temp, 400,                         /* HTML Doc*/
   "<html>\
-  <head><title></title></head>\
+  <head>\
+  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\
+  <title></title></head>\
   <body>\
   <h2>LED Status</h2>\
   <a href=\"/0\"><button>turn on</button></a>\
